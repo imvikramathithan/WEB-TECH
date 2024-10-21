@@ -45,13 +45,18 @@ WEB-TECH/
 2. Place the `employee_crud` and `EmployeeTable` folders in the `htdocs` folder of your server.
 3. Create a MySQL database named `company` and run the following SQL command:
    ```sql
+   CREATE DATABASE company;
+
+   USE company;
+
    CREATE TABLE employee (
        emp_no INT PRIMARY KEY,
-       emp_name VARCHAR(50),
+       emp_name VARCHAR(100) NOT NULL,
        date_of_join DATE,
        salary DECIMAL(10, 2),
        designation VARCHAR(50)
    );
+
    ```
 4. Update `db_config.php` in the `employee_crud` folder with your MySQL credentials.
 
@@ -60,13 +65,13 @@ WEB-TECH/
 1. Navigate to the `node/` folder.
 2. Install the HTTP server by running:
    ```bash
-   npm install http-server
+   npm init -y
    ```
 3. Start the server:
    ```bash
-   npx http-server
+     node app.js
    ```
-4. Open `http://localhost:8080` in your browser to view the Node-based website.
+4. Open `http://localhost:3000` in your browser to view the Node-based website.
 
 ---
 
