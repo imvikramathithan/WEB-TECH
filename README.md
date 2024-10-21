@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/67d18841-4162-458b-8cfb-0fabe2182329)
+
 # **WEB-TECH Projects**
 
 This repository contains various web technologies projects demonstrating frontend and backend programming concepts using **HTML**, **CSS**, **JavaScript**, **PHP**, **Node.js**, **jQuery**, and **MySQL**.
@@ -122,16 +122,13 @@ WEB-TECH/
 ## **Screenshots**
 
 1. **Employee Management System**  
-   ![Employee CRUD](![image](https://github.com/user-attachments/assets/20b8bd9c-b3f4-4f1c-92bd-6e5338acc62e))
+   ![image](https://github.com/user-attachments/assets/67d18841-4162-458b-8cfb-0fabe2182329)
 
 2. **JavaScript Clock**  
-   ![Digital Clock](![image](https://github.com/user-attachments/assets/26a11773-60ba-43af-893a-3963eb7f212e)
-)
+   ![image](https://github.com/user-attachments/assets/26a11773-60ba-43af-893a-3963eb7f212e)
 
 3. **Menu Webpage**  
-   ![Menu Webpage](![image](https://github.com/user-attachments/assets/5f0fc775-1019-4c98-add6-8eca90ccab72)
-)
-
+   ![image](https://github.com/user-attachments/assets/5f0fc775-1019-4c98-add6-8eca90ccab72)
 ---
 
 ## **License**
