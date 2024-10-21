@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click and Double-Click Events</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("p").click(function() {
+                $(this).text("You clicked on the paragraph!");
+            });
+
+            $("p").dblclick(function() {
+                $(this).text("You double-clicked on the paragraph!");
+            });
+        });
+    </script>
+</head>
+<body>
+    <p>Click or double-click on this paragraph to see different messages.</p>
+</body>
+</html>

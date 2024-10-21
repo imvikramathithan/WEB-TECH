@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slide Show</title>
+    <style>
+        img {
+            width: 400px;
+            height: 300px;
+            display: block;
+            margin: 20px auto;
+        }
+    </style>
+    <script>
+        let index = 0;
+        const images = ["https://images.pexels.com/photos/589989/pexels-photo-589989.jpeg", "https://images.pexels.com/photos/673854/pexels-photo-673854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", "https://images.pexels.com/photos/80454/tree-desert-namibia-dead-vlei-80454.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"];
+
+        function showNextImage() {
+            index = (index + 1) % images.length;
+            document.getElementById("slideshow").src = images[index];
+        }
+
+        setInterval(showNextImage, 2000);
+    </script>
+</head>
+<body>
+    <h1>Picture Slide Show</h1>
+    <img id="slideshow" src="https://images.pexels.com/photos/589989/pexels-photo-589989.jpeg" alt="Slide Show">
+</body>
+</html>
