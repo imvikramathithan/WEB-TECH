@@ -58,6 +58,15 @@ WEB-TECH/
    );
 
    ```
+4. Insert Some Sample Data
+   ```sql
+   INSERT INTO employee (emp_no, emp_name, date_of_join, salary, designation)
+   VALUES 
+   (101, 'Alice Johnson', '2020-05-10', 50000.00, 'Software Engineer'),
+   (102, 'Bob Smith', '2019-03-22', 60000.00, 'Manager'),
+   (103, 'Charlie Davis', '2021-07-15', 45000.00, 'Data Analyst');
+
+   ```
 4. Update `db_config.php` in the `employee_crud` folder with your MySQL credentials.
 
 ### 2. **Node.js Setup**
